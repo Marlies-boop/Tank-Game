@@ -9,21 +9,25 @@ public class BulletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         bulletTtl -= Time.deltaTime;
-        if(bulletTtl <= 0)
+        if (bulletTtl <= 0)
         {
+            GameObject.Find("TurnManager").GetComponent<TurnEngine>().WisselBeurt();
             Destroy(gameObject);
         }
     }
 
-   private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        GameObject.Find("TurnManager").GetComponent<TurnEngine>().WisselBeurt();
+
+
         if (collision.transform.CompareTag("Tank1"))
         {
             GameObject.Find("Canvas").GetComponent<Score>().AddP2Score();

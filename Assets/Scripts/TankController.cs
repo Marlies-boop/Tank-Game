@@ -18,11 +18,12 @@ public class TankController : MonoBehaviour
     Material inactiefMat;
     bool isAanDeBeurt = false;
     float ShotPower = 10;
+    public AnimationController controller;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        controller = GetComponentInChildren<AnimationController>();
     }
 
     // Update is called once per frame
@@ -30,9 +31,10 @@ public class TankController : MonoBehaviour
     {
         if (isAanDeBeurt == true)
         {
+            controller.AanDeBeurt = true;
             if (Input.GetKeyDown(KeyCode.Space)&& isAanDeBeurt == true)
             {
-                Invoke("WisselBeurt", 0.1f);
+                //Invoke("WisselBeurt", 0.1f);
             }
             if (PlayerNumber == 1)
             {
@@ -44,6 +46,8 @@ public class TankController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                isAanDeBeurt = false;
+
                 GameObject b = Instantiate(bulletToFire, firePoint.position, firePoint.rotation);
                 if (PlayerNumber == 1)
                 {
@@ -68,6 +72,11 @@ public class TankController : MonoBehaviour
             {
                 DecreasePower();
             }
+
+        }
+        else
+        {
+            controller.AanDeBeurt = false;
         }
 
     }

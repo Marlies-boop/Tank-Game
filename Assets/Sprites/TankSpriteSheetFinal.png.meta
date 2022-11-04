@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: dd0a865e8c0819548b8c72d7e4927efa
+guid: 5474baf1054ebd1498be31a410a25e89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,14 +63,15 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 0
+    textureCompression: 1
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -100,27 +101,15 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stylesheet-tankgame_0
+      name: TankSpriteSheetFinal_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -130,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f2b1fe9bed3514facd13b0795a90c9
-      internalID: 943020410
+      spriteID: 7d939b6e627b0f84cabdece60de32229
+      internalID: -1166866863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stylesheet-tankgame_1
+      name: TankSpriteSheetFinal_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 288
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -151,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b01083cfe17a144b9ea5b25f2e47028
-      internalID: 1456290732
+      spriteID: c3d13994c071523499d409a69bcc3368
+      internalID: 973578748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stylesheet-tankgame_2
+      name: TankSpriteSheetFinal_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 288
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -172,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a976fca4d36bc0d41af466813b197dce
-      internalID: -1655384919
+      spriteID: 1646c18748a87cb41900fffccfa85d6e
+      internalID: 1065266696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stylesheet-tankgame_3
+      name: TankSpriteSheetFinal_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 288
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -193,18 +182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cab7e59c2b23a2458bb69348c660b56
-      internalID: -952282360
+      spriteID: 047e1f1a6bca9874fa7ea5e91cc723ff
+      internalID: 632936668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stylesheet-tankgame_4
+      name: TankSpriteSheetFinal_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 288
+        x: 128
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -214,18 +203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc9a5b0b1d56944486c0753a1f2f291
-      internalID: -1792408386
+      spriteID: 24a2e570a43294f41bdb0ce2d362a495
+      internalID: 92106320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stylesheet-tankgame_5
+      name: TankSpriteSheetFinal_5
       rect:
         serializedVersion: 2
-        x: 170
-        y: 288
+        x: 160
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -235,8 +224,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce4f49fb3836f7443b14c224cb116ad9
-      internalID: -443533316
+      spriteID: e34eb4eb623c1d941a60ce3796112785
+      internalID: -2034469948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24256645004d345a006d88f7eb8b5f
+      internalID: -1677636017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91857eac9dde5e14b8f628ace990861c
+      internalID: 155379365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed7659c008e474ca9fecd4d8492043
+      internalID: -410091530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1ce4fad2f18a748bc2c2cf63391164
+      internalID: -664748746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4f9e3016c13174992cf907a6f70182
+      internalID: -2019174143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankSpriteSheetFinal_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1888ee00329bd43a1d7c76889d6e13
+      internalID: -1626272428
       vertices: []
       indices: 
       edges: []
@@ -252,12 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      stylesheet-tankgame_4: -1792408386
-      stylesheet-tankgame_0: 943020410
-      stylesheet-tankgame_3: -952282360
-      stylesheet-tankgame_5: -443533316
-      stylesheet-tankgame_2: -1655384919
-      stylesheet-tankgame_1: 1456290732
+      TankSpriteSheetFinal_0: -1166866863
+      TankSpriteSheetFinal_3: 632936668
+      TankSpriteSheetFinal_7: 155379365
+      TankSpriteSheetFinal_10: -2019174143
+      TankSpriteSheetFinal_4: 92106320
+      TankSpriteSheetFinal_5: -2034469948
+      TankSpriteSheetFinal_9: -664748746
+      TankSpriteSheetFinal_11: -1626272428
+      TankSpriteSheetFinal_6: -1677636017
+      TankSpriteSheetFinal_2: 1065266696
+      TankSpriteSheetFinal_8: -410091530
+      TankSpriteSheetFinal_1: 973578748
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

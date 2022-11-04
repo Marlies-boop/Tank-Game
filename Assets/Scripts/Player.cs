@@ -18,15 +18,15 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isAanDeBeurt == true)
         {
-            Invoke("WisselBeurt", 0.1f);
+         //   Invoke("WisselBeurt", 0.1f);
         }
     }
-    void WisselBeurt()
+    /*void WisselBeurt()
     {
         GameObject.Find("TurnManager").GetComponent<TurnEngine>().WisselBeurt();
-    }
+    }*/
 
-    public void ZetActief(bool b)
+    public void enabled(bool b)
     {
         if (b == true)
         {

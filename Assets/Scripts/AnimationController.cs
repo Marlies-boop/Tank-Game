@@ -8,6 +8,7 @@ using UnityEngine.Rendering;
 public class AnimationController : MonoBehaviour
 {
     private Animator animator;
+    public bool AanDeBeurt;
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +19,18 @@ public class AnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Horizontal") != 0)
+        if(AanDeBeurt)
         {
-            animator.SetBool("Move", true);
+            if (Input.GetAxis("Horizontal") != 0)
+            {
+                animator.SetBool("Move", true);
+            }
+            else
+            {
+                animator.SetBool("Move", false);
+            }
         }
-        else
-        {
-            animator.SetBool("Move", false);
-        }
+        
     }
+
 }

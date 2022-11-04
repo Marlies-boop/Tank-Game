@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GroundTank
+  m_Name: TankSpriteSheetFinal_6
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: f75a02d1d20f1f54d8778682546af0ea, type: 3}
+  m_Sprite: {fileID: -1677636017, guid: 5474baf1054ebd1498be31a410a25e89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
