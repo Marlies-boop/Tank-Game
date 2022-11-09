@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: TankSpriteSheetFinal_7
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 155379365, guid: 5474baf1054ebd1498be31a410a25e89, type: 3}
+  m_Sprite: {fileID: 1643541020, guid: 5474baf1054ebd1498be31a410a25e89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
